@@ -19,7 +19,7 @@ in the scheduler within ~60 seconds.
 | `orders_etl_daily` | Daily Spark ETL with dynamic ConfigMap-based script injection |
 | `nyc_taxi_pipeline` | Reads NYC taxi data from S3, transforms with Spark, writes back |
 
-## Quick start — NYC Taxi pipeline
+## Running the NYC Taxi pipeline
 
 The `nyc_taxi_pipeline` DAG requires a one-time setup (ConfigMap + S3 dataset):
 
@@ -85,7 +85,7 @@ kubectl exec -n default deploy/airflow-main-scheduler -c scheduler -- \
   airflow dags list-runs -d nyc_taxi_pipeline -o plain
 ```
 
-## Directory layout
+## Repository structure
 
 ```
 airflow/
@@ -109,3 +109,10 @@ airflow/
 ## License
 
 Apache 2.0
+
+---
+
+**Built 🚀 for the OKDP Community**
+<a href="https://okdp.io">
+  <img src="https://okdp.io/logos/okdp-notext.svg" height="20px" style="margin: 0 2px;" />
+</a>
