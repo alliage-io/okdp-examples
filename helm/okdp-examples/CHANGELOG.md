@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/OKDP/okdp-examples/compare/helm-okdp-examples/v1.0.0...helm-okdp-examples/v1.1.0) (2026-05-22)
+
+
+### Features
+
+* add PySpark example ([1272b9b](https://github.com/OKDP/okdp-examples/commit/1272b9bc877fa936e44979a9a14a22c381e404af))
+* add Spark integration ([ca3e8ad](https://github.com/OKDP/okdp-examples/commit/ca3e8ad6673c34ef8891c227b93a16a0d2f04e56))
+
+
+### Documentation
+
+* add helm docs + licence headers ([7cd1f5c](https://github.com/OKDP/okdp-examples/commit/7cd1f5c3760c51b08e5160aa1c7a1dbcaab62d87))
+
 ## 1.0.0 (2025-12-08)
 
 
